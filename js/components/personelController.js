@@ -12,9 +12,9 @@
          vm.selected   = null;
          vm.listData   = [];
          vm.selectUser = selectUser;
-         // vm.toggleList   = toggleUsersList;
          vm.openSidebar = openSidebar;
-         vm.closeSidebar = closeSidebar;
+         // vm.closeSidebar = closeSidebar;
+         // vm.toggleList   = toggleUsersList;
      
 
         personelService.getPersonel()
